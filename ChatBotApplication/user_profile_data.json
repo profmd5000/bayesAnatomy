@@ -1,0 +1,378 @@
+{
+  "Profile1_dummies": [
+    {
+      "id": "P1-A",
+      "profile_title": "Energetic but Dysregulated — Dummy A",
+      "hormonal_rhythm": {
+        "lh_mean": 7.2,
+        "lh_median": 5.4,
+        "lh_std": 2.1,
+        "lh_peak_count_30days": 6,
+        "interpretation": "upper-normal LH baseline; frequent LH elevations suggest short/erratic follicular-to-luteal transitions"
+      },
+      "thermoregulation": {
+        "nightly_temperature_skew": -1.8,
+        "luteal_temp_rise_magnitude_celsius": 0.12,
+        "luteal_temp_rise_present": false,
+        "interpretation": "cooler nights and muted luteal rise → inconsistent ovulation signal"
+      },
+      "fatigue_mood": {
+        "fatigue_prop_VeryLowLittle": 0.14,
+        "mood_variability_std": 0.48,
+        "daytime_sleepiness_score_0_10": 6.1,
+        "interpretation": "recurring fatigue with high mood volatility during luteal"
+      },
+      "sleep_patterns": {
+        "restlessness_range_minutes": 32,
+        "deep_sleep_in_minutes_range": 48,
+        "total_minutes_trend_per_week_minutes": -12,
+        "sleep_efficiency_percent": 82,
+        "interpretation": "high fragmentation; total sleep declining near luteal phase"
+      },
+      "activity": {
+        "daily_steps_mean": 8430,
+        "elevationgain_kurt": 7.4,
+        "infrared_red_std": 0.18,
+        "burstiness_index": 0.71,
+        "interpretation": "erratic movement with strong activity bursts (training through discomfort)"
+      },
+      "hrv": {
+        "rmssd_ms": 50,
+        "recovery_curve_slope": 0.02,
+        "hrv_sdnn_ms": 38,
+        "interpretation": "moderate RMSSD with flat recovery → intermittent sympathetic dominance"
+      },
+      "llm_context": "High-LH, irregular thermoregulation and fragmented sleep with bursty activity indicating luteal-phase strain and elevated physiological stress.",
+      "created_date": "2025-11-13",
+      "updated_date": "2025-11-13"
+    },
+    {
+      "id": "P1-B",
+      "profile_title": "Energetic but Dysregulated — Dummy B",
+      "hormonal_rhythm": {
+        "lh_mean": 6.8,
+        "lh_median": 4.9,
+        "lh_std": 1.9,
+        "lh_peak_count_30days": 5,
+        "interpretation": "upper-normal LH tone with intermittent peaks"
+      },
+      "thermoregulation": {
+        "nightly_temperature_skew": -2.4,
+        "luteal_temp_rise_magnitude_celsius": 0.05,
+        "luteal_temp_rise_present": false,
+        "interpretation": "marked negative skew; luteal rise generally absent"
+      },
+      "fatigue_mood": {
+        "fatigue_prop_VeryLowLittle": 0.12,
+        "mood_variability_std": 0.53,
+        "daytime_sleepiness_score_0_10": 5.8,
+        "interpretation": "frequent low-energy windows with emotional volatility"
+      },
+      "sleep_patterns": {
+        "restlessness_range_minutes": 40,
+        "deep_sleep_in_minutes_range": 55,
+        "total_minutes_trend_per_week_minutes": -18,
+        "sleep_efficiency_percent": 79,
+        "interpretation": "very inconsistent sleep; deep sleep highly variable"
+      },
+      "activity": {
+        "daily_steps_mean": 9200,
+        "elevationgain_kurt": 6.1,
+        "infrared_red_std": 0.22,
+        "burstiness_index": 0.78,
+        "interpretation": "high-intensity bursts despite poor recovery"
+      },
+      "hrv": {
+        "rmssd_ms": 54,
+        "recovery_curve_slope": 0.01,
+        "hrv_sdnn_ms": 42,
+        "interpretation": "RMSSD moderate but recovery flat → stress spikes"
+      },
+      "llm_context": "Upper-normal LH and absent luteal thermogenesis combined with fragmented sleep and bursty activity — likely luteal strain / stress-driven cycles.",
+      "created_date": "2025-11-13",
+      "updated_date": "2025-11-13"
+    }
+  ],
+  "Profile2_dummies": [
+    {
+      "id": "P2-A",
+      "profile_title": "Regulated Performers — Dummy A",
+      "hormonal_rhythm": {
+        "lh_mean": 4.1,
+        "lh_median": 3.0,
+        "lh_std": 1.1,
+        "lh_peak_count_30days": 2,
+        "interpretation": "mid-normal LH with predictable peaks (likely ovulatory)"
+      },
+      "thermoregulation": {
+        "nightly_temperature_skew": 0.6,
+        "luteal_temp_rise_magnitude_celsius": 0.32,
+        "luteal_temp_rise_present": true,
+        "interpretation": "clear luteal thermal rise indicating robust progesterone effect"
+      },
+      "fatigue_mood": {
+        "fatigue_prop_VeryLowLittle": 0.09,
+        "mood_variability_std": 0.18,
+        "daytime_sleepiness_score_0_10": 2.4,
+        "interpretation": "stable energy and mood"
+      },
+      "sleep_patterns": {
+        "restlessness_range_minutes": 10,
+        "deep_sleep_in_minutes_range": 20,
+        "total_minutes_trend_per_week_minutes": 7,
+        "sleep_efficiency_percent": 90,
+        "interpretation": "improving sleep, low restlessness"
+      },
+      "activity": {
+        "daily_steps_mean": 7600,
+        "elevationgain_kurt": 2.9,
+        "infrared_red_std": 0.08,
+        "burstiness_index": 0.32,
+        "interpretation": "steady moderate activity with consistent recovery"
+      },
+      "hrv": {
+        "rmssd_ms": 56,
+        "recovery_curve_slope": 0.08,
+        "hrv_sdnn_ms": 46,
+        "interpretation": "balanced autonomic tone with good recovery"
+      },
+      "llm_context": "Hormonally stable, regularly ovulating women with clear luteal thermogenesis, steady energy, and consistent activity.",
+      "created_date": "2025-11-13",
+      "updated_date": "2025-11-13"
+    },
+    {
+      "id": "P2-B",
+      "profile_title": "Regulated Performers — Dummy B",
+      "hormonal_rhythm": {
+        "lh_mean": 4.6,
+        "lh_median": 3.4,
+        "lh_std": 1.0,
+        "lh_peak_count_30days": 3,
+        "interpretation": "healthy LH peaks and timing"
+      },
+      "thermoregulation": {
+        "nightly_temperature_skew": 0.4,
+        "luteal_temp_rise_magnitude_celsius": 0.28,
+        "luteal_temp_rise_present": true,
+        "interpretation": "expected luteal rise"
+      },
+      "fatigue_mood": {
+        "fatigue_prop_VeryLowLittle": 0.11,
+        "mood_variability_std": 0.22,
+        "daytime_sleepiness_score_0_10": 3.1,
+        "interpretation": "minor day-to-day variance but overall stable"
+      },
+      "sleep_patterns": {
+        "restlessness_range_minutes": 12,
+        "deep_sleep_in_minutes_range": 18,
+        "total_minutes_trend_per_week_minutes": 5,
+        "sleep_efficiency_percent": 88,
+        "interpretation": "consistent sleep with good continuity"
+      },
+      "activity": {
+        "daily_steps_mean": 8100,
+        "elevationgain_kurt": 3.3,
+        "infrared_red_std": 0.09,
+        "burstiness_index": 0.38,
+        "interpretation": "regular exercise load and good recovery"
+      },
+      "hrv": {
+        "rmssd_ms": 52,
+        "recovery_curve_slope": 0.06,
+        "hrv_sdnn_ms": 40,
+        "interpretation": "healthy HRV with reliable recovery profile"
+      },
+      "llm_context": "Stable ovulatory cycles, predictable thermoregulation, and reliable recovery supporting sustainable training.",
+      "created_date": "2025-11-13",
+      "updated_date": "2025-11-13"
+    }
+  ],
+  "Profile3_dummies": [
+    {
+      "id": "P3-A",
+      "profile_title": "Fatigued Stabilizer — Dummy A",
+      "hormonal_rhythm": {
+        "lh_mean": 4.0,
+        "lh_median": 3.1,
+        "lh_std": 0.8,
+        "lh_peak_count_30days": 1,
+        "interpretation": "low-normal LH with few peaks — possible anovulatory tendency"
+      },
+      "thermoregulation": {
+        "nightly_temperature_skew": -3.1,
+        "luteal_temp_rise_magnitude_celsius": -0.02,
+        "luteal_temp_rise_present": false,
+        "interpretation": "strong negative skew; no luteal rise"
+      },
+      "fatigue_mood": {
+        "fatigue_prop_VeryLowLittle": 0.82,
+        "mood_variability_std": 0.12,
+        "daytime_sleepiness_score_0_10": 8.4,
+        "interpretation": "chronic fatigue predominant; mood flattened"
+      },
+      "sleep_patterns": {
+        "restlessness_range_minutes": 8,
+        "deep_sleep_in_minutes_range": 10,
+        "total_minutes_trend_per_week_minutes": 25,
+        "sleep_efficiency_percent": 72,
+        "interpretation": "long but non-restorative sleep (compensatory)"
+      },
+      "activity": {
+        "daily_steps_mean": 2200,
+        "elevationgain_kurt": 1.2,
+        "infrared_red_std": 0.03,
+        "burstiness_index": 0.09,
+        "interpretation": "very low activity and low variance"
+      },
+      "hrv": {
+        "rmssd_ms": 118,
+        "recovery_curve_slope": 0.20,
+        "hrv_sdnn_ms": 85,
+        "interpretation": "high RMSSD possibly driven by low movement / parasympathetic dominance"
+      },
+      "llm_context": "Low-energy, hypoestrogenic-like profile with chronic fatigue, long non-restorative sleep, and minimal activity — consider metabolic/hormonal evaluation.",
+      "created_date": "2025-11-13",
+      "updated_date": "2025-11-13"
+    },
+    {
+      "id": "P3-B",
+      "profile_title": "Fatigued Stabilizer — Dummy B",
+      "hormonal_rhythm": {
+        "lh_mean": 4.5,
+        "lh_median": 3.5,
+        "lh_std": 0.9,
+        "lh_peak_count_30days": 1,
+        "interpretation": "low-to-normal LH with weak peaks"
+      },
+      "thermoregulation": {
+        "nightly_temperature_skew": -2.9,
+        "luteal_temp_rise_magnitude_celsius": 0.01,
+        "luteal_temp_rise_present": false,
+        "interpretation": "attenuated luteal thermogenesis"
+      },
+      "fatigue_mood": {
+        "fatigue_prop_VeryLowLittle": 0.79,
+        "mood_variability_std": 0.15,
+        "daytime_sleepiness_score_0_10": 7.9,
+        "interpretation": "chronic low energy; mood relatively blunted"
+      },
+      "sleep_patterns": {
+        "restlessness_range_minutes": 14,
+        "deep_sleep_in_minutes_range": 12,
+        "total_minutes_trend_per_week_minutes": 18,
+        "sleep_efficiency_percent": 75,
+        "interpretation": "increased time in bed but poor restorative quality"
+      },
+      "activity": {
+        "daily_steps_mean": 3000,
+        "elevationgain_kurt": 1.5,
+        "infrared_red_std": 0.04,
+        "burstiness_index": 0.12,
+        "interpretation": "low movement; limited variability"
+      },
+      "hrv": {
+        "rmssd_ms": 108,
+        "recovery_curve_slope": 0.16,
+        "hrv_sdnn_ms": 72,
+        "interpretation": "elevated HRV consistent with low-energy baseline"
+      },
+      "llm_context": "Persistent low-energy phenotype with attenuated luteal thermogenesis and long, non-reparative sleep — supports RED-S / metabolic suppression hypothesis.",
+      "created_date": "2025-11-13",
+      "updated_date": "2025-11-13"
+    }
+  ],
+  "Profile4_dummies": [
+    {
+      "id": "P4-A",
+      "profile_title": "Stable & Regulated — Dummy A",
+      "hormonal_rhythm": {
+        "lh_mean": 6.1,
+        "lh_median": 4.5,
+        "lh_std": 1.5,
+        "lh_peak_count_30days": 3,
+        "interpretation": "mid-range LH with clear ovulatory likelihood"
+      },
+      "thermoregulation": {
+        "nightly_temperature_skew": -0.7,
+        "luteal_temp_rise_magnitude_celsius": 0.26,
+        "luteal_temp_rise_present": true,
+        "interpretation": "healthy cyclical thermal pattern with expected luteal rise"
+      },
+      "fatigue_mood": {
+        "fatigue_prop_VeryLowLittle": 0.15,
+        "mood_variability_std": 0.20,
+        "daytime_sleepiness_score_0_10": 3.0,
+        "interpretation": "low fatigue and emotional stability"
+      },
+      "sleep_patterns": {
+        "restlessness_range_minutes": 9,
+        "deep_sleep_in_minutes_range": 22,
+        "total_minutes_trend_per_week_minutes": 6,
+        "sleep_efficiency_percent": 89,
+        "interpretation": "consistent deep sleep and good recovery"
+      },
+      "activity": {
+        "daily_steps_mean": 7000,
+        "elevationgain_kurt": 2.1,
+        "infrared_red_std": 0.07,
+        "burstiness_index": 0.29,
+        "interpretation": "routine movement and balanced exertion"
+      },
+      "hrv": {
+        "rmssd_ms": 53,
+        "recovery_curve_slope": 0.09,
+        "hrv_sdnn_ms": 44,
+        "interpretation": "balanced autonomic state with reliable recovery"
+      },
+      "llm_context": "Well-regulated ovulatory women with balanced hormones, stable sleep, low fatigue, and consistent moderate activity.",
+      "created_date": "2025-11-13",
+      "updated_date": "2025-11-13"
+    },
+    {
+      "id": "P4-B",
+      "profile_title": "Stable & Regulated — Dummy B",
+      "hormonal_rhythm": {
+        "lh_mean": 6.4,
+        "lh_median": 4.8,
+        "lh_std": 1.4,
+        "lh_peak_count_30days": 3,
+        "interpretation": "normal LH and likely ovulatory"
+      },
+      "thermoregulation": {
+        "nightly_temperature_skew": -0.6,
+        "luteal_temp_rise_magnitude_celsius": 0.30,
+        "luteal_temp_rise_present": true,
+        "interpretation": "expected luteal thermal rise"
+      },
+      "fatigue_mood": {
+        "fatigue_prop_VeryLowLittle": 0.13,
+        "mood_variability_std": 0.17,
+        "daytime_sleepiness_score_0_10": 2.9,
+        "interpretation": "minimal fatigue and stable affect"
+      },
+      "sleep_patterns": {
+        "restlessness_range_minutes": 11,
+        "deep_sleep_in_minutes_range": 20,
+        "total_minutes_trend_per_week_minutes": 4,
+        "sleep_efficiency_percent": 90,
+        "interpretation": "stable sleep architecture and good recovery"
+      },
+      "activity": {
+        "daily_steps_mean": 7800,
+        "elevationgain_kurt": 2.5,
+        "infrared_red_std": 0.06,
+        "burstiness_index": 0.33,
+        "interpretation": "consistent moderate activity supporting wellbeing"
+      },
+      "hrv": {
+        "rmssd_ms": 51,
+        "recovery_curve_slope": 0.07,
+        "hrv_sdnn_ms": 41,
+        "interpretation": "calm autonomic balance with steady recovery"
+      },
+      "llm_context": "Regular ovulatory profile with balanced thermoregulation, steady activity, and low physiological stress.",
+      "created_date": "2025-11-13",
+      "updated_date": "2025-11-13"
+    }
+  ]
+}

@@ -1,0 +1,188 @@
+{
+  "Profile1": {
+    "profile_title": "Energetic but Dysregulated",
+    "profile_description": "🩸 Cluster 1 — Detailed Persona Profile\nTitle: “Energetic but Dysregulated”\nCluster size: ~20 users\n\n1️⃣ Hormonal Rhythm\n- LH mean ≈ 6.9, median ≈ 5.0 → upper-normal LH baseline.\n- Frequent LH elevations suggest short or erratic transitions from follicular to luteal phases.\n- Possible signs: high ovarian stimulation, luteal insufficiency, or stress-linked LH fluctuations.\n\n2️⃣ Thermoregulation\n- Negative nightly_temperature_skew → cooler nights.\n- Inconsistent luteal thermal rise → possible irregular ovulation or incomplete temperature shift.\n\n3️⃣ Fatigue & Mood\n- fatigue_prop_VeryLowLittle ≈ 0.13 → notable fatigue phases.\n- Mood variability high → emotional swings in luteal phase.\n\n4️⃣ Sleep Patterns\n- High restlessness range.\n- Large range in deep sleep duration.\n- Declining total sleep trend → poor recovery near luteal phase.\n\n5️⃣ Activity\n- High elevationgain kurtosis; erratic movement.\n- Strong activity bursts even during low-energy phases → indicates overtraining risk.\n\n6️⃣ HRV\n- RMSSD ≈ 52 ms with flat recovery curve → sympathetic dominance spikes.\n\n🧠 Female Health Interpretation\n- Likely luteal-phase strain with poor recovery.\n- High LH suggests short cycles, incomplete ovulation, or cortisol-LH interference.\n- Characteristic of active women with irregular rest + fluctuating energy.\n\n9️⃣ Actionable Summary for Downstream Use\nLLM context:\n“Women with high LH tone, irregular sleep/recovery, and bursty movement patterns showing luteal-phase strain and high physiological stress load.”",
+    "profile_data": "cluster_0_female.csv",
+    "created_date": "10 Nov 2025",
+    "updated_date": "10 Nov 2025",
+    "dummy_records": [
+      {
+        "id": "dummy_8485",
+        "created_date": "2025-11-13T17:57:38Z",
+        "updated_date": "2025-11-13T17:57:38Z",
+        "hormonal_rhythm": {
+          "lh_mean": 7.41,
+          "lh_median": 4.75,
+          "lh_std": 0.97,
+          "lh_peak_count_30days": 1
+        },
+        "thermoregulation": {
+          "nightly_temperature_skew": -0.71,
+          "luteal_temp_rise_magnitude_celsius": 0.17,
+          "luteal_temp_rise_present": false
+        },
+        "fatigue_mood": {
+          "fatigue_prop_VeryLowLittle": 0.11,
+          "mood_variability_std": 0.32,
+          "daytime_sleepiness_score_0_10": 6.53
+        },
+        "sleep_patterns": {
+          "restlessness_range_minutes": 0,
+          "deep_sleep_in_minutes_range": 51,
+          "total_minutes_trend_per_week_minutes": 24,
+          "sleep_efficiency_percent": 81
+        },
+        "activity": {
+          "daily_steps_mean": 4717,
+          "elevationgain_kurt": 3.43,
+          "infrared_red_std": 0.09,
+          "burstiness_index": 0.6
+        },
+        "hrv": {
+          "rmssd_ms": 76.03,
+          "recovery_curve_slope": 0.05,
+          "hrv_sdnn_ms": 19
+        },
+        "llm_context": "Automatically generated dummy record derived from profile text."
+      },
+      {
+        "id": "dummy_4017",
+        "created_date": "2025-11-13T17:57:38Z",
+        "updated_date": "2025-11-13T17:57:38Z",
+        "hormonal_rhythm": {
+          "lh_mean": 7.73,
+          "lh_median": 5.41,
+          "lh_std": 0.78,
+          "lh_peak_count_30days": 6
+        },
+        "thermoregulation": {
+          "nightly_temperature_skew": -0.9,
+          "luteal_temp_rise_magnitude_celsius": 0.16,
+          "luteal_temp_rise_present": true
+        },
+        "fatigue_mood": {
+          "fatigue_prop_VeryLowLittle": 0.16,
+          "mood_variability_std": 0.33,
+          "daytime_sleepiness_score_0_10": 4.6
+        },
+        "sleep_patterns": {
+          "restlessness_range_minutes": 13,
+          "deep_sleep_in_minutes_range": 40,
+          "total_minutes_trend_per_week_minutes": -22,
+          "sleep_efficiency_percent": 77
+        },
+        "activity": {
+          "daily_steps_mean": 4887,
+          "elevationgain_kurt": 1.81,
+          "infrared_red_std": 0.07,
+          "burstiness_index": 0.5
+        },
+        "hrv": {
+          "rmssd_ms": 71.19,
+          "recovery_curve_slope": 0.07,
+          "hrv_sdnn_ms": 70
+        },
+        "llm_context": "Automatically generated dummy record derived from profile text."
+      },
+      {
+        "id": "dummy_1872",
+        "created_date": "2025-11-13T18:01:46Z",
+        "updated_date": "2025-11-13T18:01:46Z",
+        "hormonal_rhythm": {
+          "lh_mean": 5.74,
+          "lh_median": 7.28,
+          "lh_std": 2.14,
+          "lh_peak_count_30days": 5
+        },
+        "thermoregulation": {
+          "nightly_temperature_skew": -1.26,
+          "luteal_temp_rise_magnitude_celsius": 0.32,
+          "luteal_temp_rise_present": true
+        },
+        "fatigue_mood": {
+          "fatigue_prop_VeryLowLittle": 0.14,
+          "mood_variability_std": 0.31,
+          "daytime_sleepiness_score_0_10": 3.94
+        },
+        "sleep_patterns": {
+          "restlessness_range_minutes": 22,
+          "deep_sleep_in_minutes_range": 19,
+          "total_minutes_trend_per_week_minutes": -26,
+          "sleep_efficiency_percent": 91
+        },
+        "activity": {
+          "daily_steps_mean": 7493,
+          "elevationgain_kurt": 1.58,
+          "infrared_red_std": 0.05,
+          "burstiness_index": 0.44
+        },
+        "hrv": {
+          "rmssd_ms": 71.89,
+          "recovery_curve_slope": 0.03,
+          "hrv_sdnn_ms": 59
+        },
+        "llm_context": "Automatically generated dummy record derived from profile text."
+      },
+      {
+        "id": "dummy_2910",
+        "created_date": "2025-11-13T18:01:46Z",
+        "updated_date": "2025-11-13T18:01:46Z",
+        "hormonal_rhythm": {
+          "lh_mean": 7.33,
+          "lh_median": 5.38,
+          "lh_std": 1.62,
+          "lh_peak_count_30days": 3
+        },
+        "thermoregulation": {
+          "nightly_temperature_skew": -0.35,
+          "luteal_temp_rise_magnitude_celsius": 0.12,
+          "luteal_temp_rise_present": false
+        },
+        "fatigue_mood": {
+          "fatigue_prop_VeryLowLittle": 0.19,
+          "mood_variability_std": 0.13,
+          "daytime_sleepiness_score_0_10": 4.94
+        },
+        "sleep_patterns": {
+          "restlessness_range_minutes": 7,
+          "deep_sleep_in_minutes_range": 33,
+          "total_minutes_trend_per_week_minutes": 13,
+          "sleep_efficiency_percent": 81
+        },
+        "activity": {
+          "daily_steps_mean": 5054,
+          "elevationgain_kurt": 6.09,
+          "infrared_red_std": 0.07,
+          "burstiness_index": 0.66
+        },
+        "hrv": {
+          "rmssd_ms": 72.18,
+          "recovery_curve_slope": 0.09,
+          "hrv_sdnn_ms": 30
+        },
+        "llm_context": "Automatically generated dummy record derived from profile text."
+      }
+    ]
+  },
+  "Profile2": {
+    "profile_title": "Regulated Performers",
+    "profile_description": "🌿 Cluster 2 — Detailed Persona Profile\nTitle: “Regulated Performers”\nCluster size: ~12 users\n\n1️⃣ Hormonal Rhythm\n- LH mean ≈ 4.4, median ≈ 3.3 → mid-normal.\n- Indicates healthy ovulatory cycles with predictable LH peaks.\n\n2️⃣ Thermoregulation\n- Mildly positive nightly_temperature_skew → normal progesterone-driven luteal thermal rise.\n\n3️⃣ Fatigue & Mood\n- fatigue_prop_VeryLowLittle ≈ 0.10 → stable energy.\n- Mood stable, emotionally consistent.\n\n4️⃣ Sleep\n- Improving total sleep trend.\n- Low restlessness → strong recovery.\n\n5️⃣ Activity\n- Moderate, steady movement.\n- Sedentary_trend ≈ 3.9 → sustainable activity patterns.\n\n6️⃣ HRV\n- RMSSD ≈ 52 ms → balanced autonomic tone.\n\n🧠 Female Health Interpretation\n- Regular ovulatory cycles.\n- Strong progesterone rise → stable sleep & mood.\n- Balanced exertion + recovery.\n\n9️⃣ Actionable Summary for Downstream Use\nLLM context:\n“Hormonally stable, regularly ovulating women with balanced thermoregulation, steady energy, and consistent movement.”",
+    "profile_data": "cluster_1_female.csv",
+    "created_date": "10 Nov 2025",
+    "updated_date": "10 Nov 2025"
+  },
+  "Profile3": {
+    "profile_title": "Fatigued Stabilizer",
+    "profile_description": "🩹 Cluster 3 — Detailed Persona Profile\nTitle: “Fatigued Stabilizer”\nCluster size: 1 user (but coherent pattern)\n\n1️⃣ Hormonal Rhythm\n- LH mean ≈ 4.3, median ≈ 3.3 → normal-to-low.\n- Limited LH surges → possible ovulatory suppression or luteal insufficiency.\n\n2️⃣ Thermoregulation\n- Strongly negative nightly_temperature_skew (−3.38) → no sustained luteal temp rise → low progesterone.\n\n3️⃣ Fatigue & Mood\n- fatigue_prop_VeryLowLittle ≈ 0.825 → chronic fatigue.\n- Possible conditions: low estrogen, anovulation, or thyroid-suppressed metabolic state.\n\n4️⃣ Sleep\n- Long but non-restorative sleep.\n- Very strong positive trend in total minutes → body trying to compensate for low hormonal recovery.\n\n5️⃣ Activity\n- Minimal movement.\n- Very low variability.\n\n6️⃣ HRV\n- RMSSD ≈ 119 ms → unusually high, possibly due to low movement or parasympathetic dominance.\n\n🧠 Female Health Interpretation\n- Hypoestrogenic or luteal deficiency profile.\n- Could reflect RED-S–like pattern (low energy availability).\n- Sleep is long, but not reparative.\n\n9️⃣ Actionable Summary for Downstream Use\nLLM context:\n“Low-energy, low-hormone, hypoestrogenic profile with chronic fatigue, long sleep, and minimal activity — possible RED-S phenotype.”",
+    "profile_data": "cluster_2_female.csv",
+    "created_date": "10 Nov 2025",
+    "updated_date": "10 Nov 2025"
+  },
+  "Profile4": {
+    "profile_title": "Stable & Regulated",
+    "profile_description": "🌙 Cluster 4 — Detailed Persona Profile\nTitle: “Stable & Regulated”\nCluster size: ~9 users\n\n1️⃣ Hormonal Rhythm\n- LH mean ≈ 6.2, median ≈ 4.5 → normal mid-range LH.\n- Strong ovulation likelihood.\n\n2️⃣ Thermoregulation\n- Slight negative nightly_temperature_skew (~−0.72) → healthy cyclical thermal pattern.\n\n3️⃣ Fatigue & Mood\n- fatigue_prop_VeryLowLittle ≈ 0.15 → low fatigue.\n- Emotional stability.\n\n4️⃣ Sleep\n- Consistent deep sleep.\n- Slight upward trend in total sleep → good recovery quality.\n\n5️⃣ Activity\n- Routine movement, moderate excercise.\n- Low elevationgain kurtosis → no overtraining.\n\n6️⃣ HRV\n- RMSSD ≈ 52 ms → balanced, calm autonomic state.\n\n🧠 Female Health Interpretation\n- Regular, ovulatory cycles.\n- Balanced progesterone/estrogen signaling.\n- Stable mood, low fatigue, strong circadian regulation.\n\n9️⃣ Actionable Summary for Downstream Use\nLLM context:\n“Well-regulated, ovulatory women with stable hormones, balanced sleep, low fatigue, and consistent moderate activity.”",
+    "profile_data": "cluster_3_female.csv",
+    "created_date": "10 Nov 2025",
+    "updated_date": "10 Nov 2025"
+  }
+}
